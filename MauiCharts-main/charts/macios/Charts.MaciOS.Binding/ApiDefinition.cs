@@ -18,8 +18,8 @@ namespace ChartsMaciOS
         UIView CreatePieChartWithData (NSDictionary<NSString, NSNumber> data, [NullAllowed] UIColor[] colors);
 
         // +(NSString * _Nonnull)registerDeviceWithMyString:(NSString * _Nonnull)myString localizedReason:(NSString * _Nonnull)localizedReason __attribute__((warn_unused_result("")));
-        // [Static]
-        // [Export ("registerDeviceWithMyString:localizedReason:")]
-        // string RegisterDeviceWithMyString (string myString, string localizedReason);
+        [Static]
+        [Export ("registerDeviceWithMyString:localizedReason:")]
+        string RegisterDeviceWithMyString (string myString, string localizedReason);
     }
 }

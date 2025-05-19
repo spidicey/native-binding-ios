@@ -16,7 +16,7 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-
+		Charts.RegisterDeviceWithMyString("alasdasd","hello");
 		// Pie Chart implementation in C#
 
 		// var pieChart = new MauiPieChart()
